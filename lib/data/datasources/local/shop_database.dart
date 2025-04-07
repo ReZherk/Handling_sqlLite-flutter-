@@ -1,5 +1,5 @@
 import 'package:path/path.dart';
-import 'package:shopsqlite/models.dart';
+import 'package:shopsqlite/data/models/models.dart';
 import 'package:sqflite/sqflite.dart';
 
 class ShopDatabase {

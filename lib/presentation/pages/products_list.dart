@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shopsqlite/models.dart';
-import 'package:shopsqlite/shop_database.dart';
+import 'package:shopsqlite/data/models/models.dart';
+import 'package:shopsqlite/data/datasources/local/shop_database.dart';
 
 class ProductsList extends StatefulWidget {
   ProductsList({super.key});

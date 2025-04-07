@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shopsqlite/models.dart';
-import 'package:shopsqlite/notifier.dart';
-import 'package:shopsqlite/shop_database.dart';
+import 'package:shopsqlite/data/models/models.dart';
+import 'package:shopsqlite/presentation/notifiers/notifier.dart';
+import 'package:shopsqlite/data/datasources/local/shop_database.dart';
 
 class MyCart extends StatefulWidget {
   const MyCart({super.key});
